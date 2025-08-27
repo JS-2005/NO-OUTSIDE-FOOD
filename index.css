@@ -1,0 +1,142 @@
+
+@font-face {
+  font-family: "Obra Letra";
+  src: url("/fonts/ObraLetra-Regular.woff2") format("woff2"),
+       url("/fonts/ObraLetra-Regular.woff")  format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; 
+}
+
+@font-face {
+  font-family: "Obra Letra";
+  src: url("/fonts/ObraLetra-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: bold;
+  font-display: swap;
+}
+
+/* Make stacking context */
+.min-vh-100 {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Make video behave like a background image */
+#video {
+  position: absolute;
+  inset: 0;                 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;        
+  object-position: center;
+  z-index: 0;              
+  pointer-events: none;     
+}
+
+/* Ensure existing content sits above video */
+.min-vh-100 .py-lg-5, .min-vh-100 .py-lg-5 .col-md-8 {
+  position: relative;
+  z-index: 1;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  #video { display: none; }        
+  .min-vh-100 { background: url('/food video/food1-poster.jpg') center/cover no-repeat; }
+}
+
+
+@media (max-width: 575.98px) {
+  .min-vh-100 { min-height: 60vh; } 
+  .min-vh-100 .py-lg-5 { margin-top: 3rem ; } 
+}
+
+
+/* apply font */
+.font-obra {
+  font-family: "Obra Letra", serif; 
+}
+
+.i-size{
+    font-size:150px;
+}
+
+
+.inner-i{
+    font-size:75px;
+}
+
+
+.flex-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;    
+    align-items: stretch;
+}
+
+.col-item {
+    width: 100%;
+    transition: transform .28s cubic-bezier(.2,.8,.2,1), box-shadow .28s;
+    transform-origin: center center;
+    will-change: transform;
+    position: relative; 
+    box-shadow: 0 .125rem .5rem rgba(0,0,0,.04);
+}
+
+@media (min-width: 992px) {
+    .flex-cards {
+        flex-direction: row;
+    }
+
+    .col-item {
+        flex: 1 1 0;            /* equal width columns */
+        min-width: 0;          /* prevents overflow with long text */
+    }
+}
+
+
+@media (hover: hover) and (pointer: fine) {
+  .col-item:hover,
+  .col-item:focus-within {
+    transform: scale(1.06) translateY(-6px);
+    box-shadow: 0 1.25rem 2.5rem rgba(0,0,0,.15), 0 .5rem 1rem rgba(0,0,0,.08);
+    z-index: 5;
+
+    /* make box black */
+    background-color: #000;
+    border-color: #000; 
+    color: #fff;         
+  }
+
+  /* Switch icons, headings and paragraphs inside to white */
+  .col-item:hover .i-size,.col-item:hover .inner-i,.col-item:hover h4,.col-item:hover p,.col-item:hover .desc-align,.col-item:hover .bi {
+    color: #fff;
+    fill: currentColor;
+  }
+}
+
+
+.col-item:focus-within {
+  outline: none;
+  box-shadow: 0 0 0 .2rem rgba(112, 37, 249, .12);
+}
+
+/* reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .col-item {
+    transition: none;
+  }
+}
+
+/* keep icon transition smooth */
+.col-item .i-size,
+.col-item .inner-i {
+  transition: inherit;
+}
+
+.desc-align{
+    text-align:justify;
+}
+
+
