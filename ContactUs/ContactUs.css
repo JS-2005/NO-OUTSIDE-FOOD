@@ -1,0 +1,118 @@
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --primary: rgb(102, 99, 110);
+    /* Vibrant orange */
+    --secondary: #c0b999;
+    /* Mustard yellow */
+    --dark: #2D3047;
+    /* Navy blue */
+    --light: #FFF8F0;
+    /* Cream */
+    --accent: #765dcf;
+    /* Red */
+}
+
+header {
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20250706/pngtree-street-food-stalls-in-korea-offer-festive-snacks-for-constitution-day-image_17474798.webp");
+    background-size: cover;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(247, 246, 245); 
+    
+}
+
+
+.headerTitle {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+
+
+.contact-container {
+    background-color: rgb(247, 246, 245);
+    border-radius: 20px;
+    overflow: hidden;
+    border: 8px solid rgb(36, 20, 20);
+}
+
+.header-title {
+    font-family: 'Fredoka One', cursive;
+    color: var(--primary);
+    text-shadow: 3px 3px 0 var(--secondary);
+    letter-spacing: 1px;
+}
+
+.contact-image {
+    background-image: url('../image/streetfood2.webp');
+    background-size: cover;
+    background-position: center;
+    min-height: 100%;
+    border-left: 8px solid rgb(36, 20, 20);
+}
+
+.btn-street {
+    background-color: var(--primary);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all 0.3s;
+}
+
+.btn-street:hover {
+    background-color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(231, 29, 54, 0.3);
+}
+
+.form-control {
+    border: 2px solid var(--secondary);
+    border-radius: 10px;
+    padding: 12px 15px;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 53, 0.25);
+}
+
+.contact-icon {
+    color: var(--primary);
+    background-color: var(--secondary);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.floating-food {
+    position: absolute;
+    opacity: 0.8;
+    z-index: -1;
+}
+
+.food-1 {
+    top: 10%;
+    left: 5%;
+    transform: rotate(-15deg);
+    width: 80px;
+}
+
+.food-2 {
+    bottom: 15%;
+    right: 5%;
+    transform: rotate(25deg);
+    width: 100px;
+}
