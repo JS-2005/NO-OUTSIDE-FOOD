@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+section {
+    background: url("https://img.freepik.com/premium-photo/ingredients-cooking-black-stone-kitchen-table-herbs-spices-vegetables-top-view-with-space-design_1040174-1582.jpg?semt=ais_hybrid&w=740&q=80");
+    background-size: cover;
+}
+
+.headerTitle {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 2px 2px black;
+}
+
+.spinner-container {
+    min-height: 100px;
+    /* Ensure space for spinner */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+    color: #28a745;
+    /* Green spinner */
+}
+
+.generateBtn:hover {
+    background: linear-gradient(45deg, #218838, #1e7e34);
+    box-shadow: 0 6px 15px rgba(40, 167, 69, 0.4);
+    transform: translateY(-2px);
+}
