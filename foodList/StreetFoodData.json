@@ -1,0 +1,247 @@
+[
+    {
+        "name": "Pad Thai",
+        "country": "Thailand",
+        "description": "A classic stir-fried rice noodle dish with shrimp, tofu, and peanuts."
+    },
+    {
+        "name": "Satay",
+        "country": "Indonesia",
+        "description": "Skewered and grilled meat, served with a rich, savory peanut sauce."
+    },
+    {
+        "name": "Takoyaki",
+        "country": "Japan",
+        "description": "Ball-shaped wheat flour batter filled with minced octopus and topped with sauce."
+    },
+    {
+        "name": "Banh Mi",
+        "country": "Vietnam",
+        "description": "A crispy baguette sandwich filled with savory meats, and pickled vegetables."
+    },
+    {
+        "name": "Jianbing",
+        "country": "China",
+        "description": "A savory crepe-like pancake, cooked with an egg, crispy wonton, and various sauces."
+    },
+    {
+        "name": "Samosa",
+        "country": "India",
+        "description": "A fried pastry with a spiced potato, pea, and onion filling."
+    },
+    {
+        "name": "Bibimbap",
+        "country": "South Korea",
+        "description": "A mixed rice bowl with vegetables, gochujang, and usually an egg and sliced meat."
+    },
+    {
+        "name": "Shawarma",
+        "country": "Lebanon",
+        "description": "Thinly sliced marinated meat, roasted on a vertical spit and served in a wrap."
+    },
+    {
+        "name": "Roti Canai",
+        "country": "Malaysia",
+        "description": "A flaky, pan-fried flatbread served with a side of curry for dipping."
+    },
+    {
+        "name": "Lumpia",
+        "country": "Philippines",
+        "description": "A deep-fried spring roll filled with minced meat and vegetables."
+    },
+    {
+        "name": "Khao Soi",
+        "country": "Thailand",
+        "description": "A creamy and spicy coconut milk curry noodle soup topped with crispy fried noodles."
+    },
+    {
+        "name": "Okonomiyaki",
+        "country": "Japan",
+        "description": "A savory pancake made with flour, cabbage, and various toppings."
+    },
+    {
+        "name": "Bakso",
+        "country": "Indonesia",
+        "description": "A meatball soup with meatballs made from beef paste, served with noodles and vegetables."
+    },
+    {
+        "name": "Laksa",
+        "country": "Malaysia",
+        "description": "A spicy and tangy noodle soup with a coconut milk or tamarind-based broth."
+    },
+    {
+        "name": "Mango Sticky Rice",
+        "country": "Thailand",
+        "description": "A classic dessert of sweet sticky rice with fresh mango and coconut milk."
+    },
+    {
+        "name": "Fresh Spring Rolls",
+        "country": "Vietnam",
+        "description": "Fresh spring rolls with shrimp, pork, vegetables, and herbs, served with a dipping sauce."
+    },
+    {
+        "name": "Dabeli",
+        "country": "India",
+        "description": "A spicy and tangy potato mixture filled in a bun and topped with chutneys and nuts."
+    },
+    {
+        "name": "Hotteok",
+        "country": "South Korea",
+        "description": "A sweet, filled pancake fried on a griddle, often with a cinnamon-sugar filling."
+    },
+    {
+        "name": "Roti Jala",
+        "country": "Malaysia",
+        "description": "Lacy, net-like crepes often served with chicken curry."
+    },
+    {
+        "name": "Nasi Lemak",
+        "country": "Malaysia",
+        "description": "Fragrant rice cooked in coconut milk and pandan leaf, served with various side dishes."
+    },
+    {
+        "name": "Pad See Ew",
+        "country": "Thailand",
+        "description": "Stir-fried wide rice noodles with soy sauce, Chinese broccoli, and meat."
+    },
+    {
+        "name": "Chicken Rice",
+        "country": "Singapore",
+        "description": "A dish of steamed chicken and rice cooked in chicken stock, served with chili and soy sauce."
+    },
+    {
+        "name": "Jalebi",
+        "country": "India",
+        "description": "A sweet, deep-fried pretzel-like dessert, soaked in sugar syrup."
+    },
+    {
+        "name": "Gado-gado",
+        "country": "Indonesia",
+        "description": "A vegetable salad with a rich peanut sauce, served with rice cakes."
+    },
+    {
+        "name": "Tteokbokki",
+        "country": "South Korea",
+        "description": "A spicy stir-fried dish of chewy rice cakes in a sweet red chili sauce."
+    },
+    {
+        "name": "Peking Duck",
+        "country": "China",
+        "description": "A dish of roasted duck with crisp skin, sliced and served with pancakes and sauces."
+    },
+    {
+        "name": "Adobo",
+        "country": "Philippines",
+        "description": "A popular Filipino dish of meat, seafood, or vegetables marinated and braised in vinegar and soy sauce."
+    },
+    {
+        "name": "Kwek-kwek",
+        "country": "Philippines",
+        "description": "Deep-fried quail eggs coated in an orange batter."
+    },
+    {
+        "name": "Kebab",
+        "country": "Turkey",
+        "description": "Pieces of marinated meat or vegetables, grilled on a skewer."
+    },
+    {
+        "name": "Curry Mee",
+        "country": "Malaysia",
+        "description": "A popular noodle soup with coconut milk curry broth, chicken, and other toppings."
+    },
+    {
+        "name": "Chaat",
+        "country": "India",
+        "description": "A savory snack, typically with fried dough, potatoes, chickpeas, and various sauces."
+    },
+    {
+        "name": "Tom Yum Goong",
+        "country": "Thailand",
+        "description": "A hot and sour shrimp soup with a fragrant blend of herbs and spices."
+    },
+    {
+        "name": "Ramen",
+        "country": "Japan",
+        "description": "A Japanese noodle soup dish with a rich broth, wheat noodles, and various toppings."
+    },
+    {
+        "name": "Pho",
+        "country": "Vietnam",
+        "description": "A fragrant noodle soup with broth, rice noodles, herbs, and meat."
+    },
+    {
+        "name": "Kulfi",
+        "country": "India",
+        "description": "A traditional Indian frozen dairy dessert, often described as traditional Indian ice cream."
+    },
+    {
+        "name": "Youtiao",
+        "country": "China",
+        "description": "A long, golden-brown deep-fried dough strip, often eaten for breakfast."
+    },
+    {
+        "name": "Xiao Long Bao",
+        "country": "China",
+        "description": "A type of steamed bun with a savory pork filling and a hot soup broth inside."
+    },
+    {
+        "name": "Char Kway Teow",
+        "country": "Malaysia",
+        "description": "A stir-fried flat rice noodle dish with shrimp, cockles, and bean sprouts."
+    },
+    {
+        "name": "Sisig",
+        "country": "Philippines",
+        "description": "A sizzling dish of chopped pig's head, belly, and liver, seasoned with calamansi and chili peppers."
+    },
+    {
+        "name": "Dango",
+        "country": "Japan",
+        "description": "A Japanese dumpling made from rice flour, often served on a skewer with a sweet glaze."
+    },
+    {
+        "name": "Pajeon",
+        "country": "South Korea",
+        "description": "A savory pancake with green onions and other ingredients like seafood."
+    },
+    {
+        "name": "Wonton Noodles",
+        "country": "Malaysia",
+        "description": "Egg noodles served in a savory broth with wontons filled with shrimp and pork."
+    },
+    {
+        "name": "Kimchi",
+        "country": "South Korea",
+        "description": "A traditional side dish of fermented and seasoned vegetables, most commonly cabbage."
+    },
+    {
+        "name": "Chicken Katsu",
+        "country": "Japan",
+        "description": "A deep-fried breaded chicken cutlet, served with a tangy sauce."
+    },
+    {
+        "name": "Siew Mai",
+        "country": "China",
+        "description": "A type of traditional Chinese dumpling, often filled with pork and shrimp."
+    },
+    {
+        "name": "Chendol",
+        "country": "Malaysia",
+        "description": "A sweet dessert with green rice flour jelly, coconut milk, and palm sugar."
+    },
+    {
+        "name": "Bubur Cha Cha",
+        "country": "Malaysia",
+        "description": "A sweet coconut milk dessert with a mix of sweet potatoes, taro, and sago."
+    },
+    {
+        "name": "Popiah",
+        "country": "Malaysia",
+        "description": "Fresh, non-fried spring rolls with cooked turnip, shrimp, and sweet sauce."
+    },
+    {
+        "name": "Apam Balik",
+        "country": "Malaysia",
+        "description": "A thick, fluffy folded pancake with fillings like crushed peanuts and sugar."
+    }
+]

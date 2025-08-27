@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Meta Element-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="List of street food">
+    <meta name="author" content="Khor Jie Shen">
+
+    <title>List of Street Food</title>
+
+    <!--CSS File-->
+    <link rel="stylesheet" href="foodList.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!--Google Icon-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=fastfood" />
+
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand d-flex align-items-center" id="mainIcon">
+                <span class="material-symbols-outlined m-2">fastfood</span>
+                <strong>NOOUTSIDEFOOD</strong>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../userMain/userMain.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Food List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../NearbyFood/NearbyFood.html">Nearby Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../caloriesCalculator/caloriesCalculator.html">Calories Calculator</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../foodRecipe/foodRecipe.html">Food Receipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../feedback/feedback.html">Feedback</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <button class="btn btn-danger" id="logoutButton">Logout</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Section Title-->
+    <header class="bg-primary text-white text-center py-5">
+        <h1 class="headerTitle">List of Street Food</h1>
+    </header>
+
+    <!--Food List Content-->
+    <section class="container-fluid min-vh-100">
+        <!--Food Search and Filter-->
+        <form class="container d-flex p-3 justify-content-center" onSubmit="filterAndSearch(event)">
+            <select name="country" id="country" class="m-2 p-2 w-25">
+                <option value="allCountries" selected>All Countries</option>
+                <option value="Thailand">Thailand</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Japan">Japan</option>
+                <option value="Vietnam">Vietnam</option>
+                <option value="China">China</option>
+                <option value="India">India</option>
+                <option value="SouthKorea">South Korea</option>
+                <option value="Lebanon">Lebanon</option>
+                <option value="Malaysia">Malaysia</option>
+                <option value="Philippines">Philippines</option>
+                <option value="Singapore">Singapore</option>
+                <option value="Turkey">Turkey</option>
+            </select>
+            <input type="text" id="searchFood" class="m-2 p-2 w-50" placeholder="Search for a street food name">
+            <input type="submit" value="Search" class="m-2 p-2 w-25 bg-primary border border-white rounded text-white">
+        </form>
+
+        <!--Food Filter-->
+        <div class="container d-flex p-3 justify-content-center">
+
+        </div>
+
+        <!--Food list in card form-->
+        <div class="container">
+            <div class="card-deck d-flex flex-wrap justify-content-evenly" id="foodContent"></div>
+        </div>
+
+    </section>
+
+    <!--Page footer-->
+    <footer class="text-white mt-3 py-3 bg-dark text-center">
+        <div class="container-fluid ">
+            <p class="d-5">&copy; 2025 Copyright UCCD2323 Assignment Group 1</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!--JQuery CDN-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    
+    <!--JavaScript File-->
+    <script src="foodList.js"></script>
+    <script src="../logout.js"></script>
+
+</body>
+
+</html>
