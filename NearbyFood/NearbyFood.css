@@ -1,0 +1,88 @@
+/*Import Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+header {
+    background: url("https://png.pngtree.com/thumb_back/fh260/background/20250706/pngtree-street-food-stalls-in-korea-offer-festive-snacks-for-constitution-day-image_17474798.webp");
+    background-size: cover;
+}
+
+.headerTitle {
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+    text-shadow: 2px 2px white;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.header {
+    background-image: url("background.jpg");
+    background-color: rgba(255, 255, 255, 0.7);
+    background-blend-mode: lighten;
+    color: rgb(44, 44, 46);
+    padding: 4rem 0;
+    font-family: "Alfa Slab One", serif;
+    text-align: center;
+}
+
+.header h1 {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.header p {
+    font-size: 1.25rem;
+    opacity: 0.9;
+}
+
+.btn-find {
+    font-weight: 600;
+    padding: 0.75rem 2rem;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.place-card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+}
+
+.place-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.12);
+}
+
+.card-body {
+    padding: 1.75rem;
+}
+
+.card-title {
+    font-family: "Macondo", cursive;
+    font-style: normal;
+    font-weight: 600;
+    color: #333;
+}
+
+.card-subtitle {
+    color: #555;
+}
+
+.distance-badge {
+    background-color: #322449;
+    color: white;
+    font-weight: 500;
+    padding: 0.5em 0.9em;
+    border-radius: 50px;
+}
+
+#loader,
+#error-message {
+    display: none;
+}
