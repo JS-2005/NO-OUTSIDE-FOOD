@@ -1,0 +1,27 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa; 
+    overflow:hidden;
+}
+
+.form-container {
+    transition: opacity 0.3s ease-in, transform 0.3s ease-in;
+}
+
+.form-hidden {
+    opacity: 0;
+    transform: scale(0.95);
+    pointer-events: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.alert {
+    z-index: 1050;
+}
+
+.back-btn button {
+  padding: .5rem .75rem;
+  border-radius: .375rem;
+}
