@@ -270,14 +270,15 @@ h2 {
 /* Update H1 styling for better contrast */
 .animated-header h1 {
     font-family: 'Arial', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #ffffff;
     /* Change text color to white */
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     /* Add shadow for readability */
     z-index: 3;
     /* Ensure title is above the overlay and emojis */
     position: relative;
+    margin: 0;
 }
 
 /* --- Keyframes for Header Animation --- */
@@ -291,4 +292,5 @@ h2 {
     }
 
 }
+
 
