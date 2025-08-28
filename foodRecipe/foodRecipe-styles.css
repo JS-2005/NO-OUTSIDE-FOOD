@@ -95,11 +95,9 @@ body {
 
     /* Set the background image (make sure the path is correct) */
     background-image: url('../image/asian-street-food-traditional-oriental-dishes-street-market-generative-ai_77190-12992.avif');
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
-
-    /* Apply the animation */
-    animation: kenBurnsEffect 25s linear infinite alternate;
 }
 
 /* Add a dark overlay so the text is easier to read */
@@ -117,22 +115,12 @@ body {
 /* Update H1 styling for better contrast */
 .animated-header h1 {
     font-family: 'Arial', sans-serif;
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     color: #ffffff;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.8);
     z-index: 3;
     position: relative;
-}
-
-/* --- Keyframes for Header Animation --- */
-@keyframes kenBurnsEffect {
-    0% {
-        background-size: 100%;
-    }
-
-    100% {
-        background-size: 120%;
-    }
+    margin: 0;
 }
 
 .py-5.text-center.container .lead {
@@ -140,4 +128,5 @@ body {
     font-size: 1.75rem;
     color: #343a40;
     /* A darker gray for better contrast */
+
 }
