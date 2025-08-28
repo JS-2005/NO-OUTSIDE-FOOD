@@ -248,9 +248,6 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
-    /* Apply the animation */
-    animation: kenBurnsEffect 25s linear infinite alternate;
 }
 
 /* Add a dark overlay so the text is easier to read */
@@ -292,5 +289,6 @@ h2 {
     }
 
 }
+
 
 
