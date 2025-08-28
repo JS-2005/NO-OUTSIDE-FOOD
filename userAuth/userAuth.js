@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Check for a logged-in user on page load
     const loggedInUser = localStorage.getItem(LOGGED_IN_USER_KEY);
     if (loggedInUser) {
-        window.location.replace('userMain/userMain.html');
+        window.location.replace('../userMain/userMain.html');
     } else {
         switchForm('signup');
         // Start with signup form if no one is logged in
