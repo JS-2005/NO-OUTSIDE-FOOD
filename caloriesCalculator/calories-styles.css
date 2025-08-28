@@ -245,6 +245,7 @@ h2 {
 
     /* Set the background image */
     background-image: url('../image/asian-street-food-traditional-oriental-dishes-street-market-generative-ai_77190-12992.avif');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 
@@ -290,3 +291,4 @@ h2 {
     }
 
 }
+
